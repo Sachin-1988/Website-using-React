@@ -1,0 +1,11 @@
+.social-link-outer{
+   display: flex;
+   gap: 3%;
+   margin-top: 20px;
+   }
+   .input-box{
+    margin-right: 5px;
+   }
+   /* .social-link{
+    margin-top: 50px;
+   } */

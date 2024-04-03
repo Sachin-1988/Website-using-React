@@ -1,0 +1,30 @@
+.mainContainer {
+  display: flex;
+   position: relative;
+   
+
+    width: 100%;
+  
+    /* flex-direction: row !important; */
+  }
+  .categoryImage {
+            flex-direction: row;
+
+    /* display: grid; */
+    /* flex-direction: row; */
+    
+
+    width: 130px;
+  }
+  
+  @media (max-width: 768px) {
+    .mainContainer {
+      width: 100%;
+      /* display: flex; */
+    }
+    .categoryImage {
+      width: 50px;
+      /* justify-content: center; */
+    }
+  }
+  
